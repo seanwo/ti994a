@@ -1,8 +1,8 @@
 public class Ti994aCharDecode {
     public static void main(String[] args) {
         if (args.length!=1){
-            System.out.println("usage: TI994aCharDecode patternVal-identifier");
-            System.out.println("example: TI994aCharDecode 00367F7F7F3E1C08");
+            System.out.println("usage: Ti994aCharDecode patternVal-identifier");
+            System.out.println("example: Ti994aCharDecode 00367F7F7F3E1C08");
             System.exit(-1);
         }
         try {
