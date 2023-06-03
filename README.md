@@ -1,6 +1,6 @@
 # ti994a
 
-Repository for the reconstruction (and "reimagining") of ti994a projects developed during my childhood.
+Repository for the reconstruction (and "reimagining") of TI99/4A projects developed during my childhood.
 
 ## Project: BlackJack
 
@@ -39,7 +39,7 @@ Description: Ti99Dir is a Windows program to browse through TI-99/4A files (v9t9
 Notes: Great for drive management; browsing and extracting.  
 URL: [Ti99dir](https://www.99er.net/download2/index.php?act=view&id=219)  
 
-## Loading Cassette Program (.wav) Files From Original TI Hardware
+## Loading Cassette Program (.wav) Files From Mac To TI99/4A
 
 * Plug the TI tape audio cable serial end into the back of the TI
 * Plug the TI tape audio cable (white wire) into the headphone jack of your mac
