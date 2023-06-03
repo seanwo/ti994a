@@ -38,3 +38,13 @@ Name: Ti99Dir
 Description: Ti99Dir is a Windows program to browse through TI-99/4A files (v9t9 format), Archive files (v9t9 format and created with Barry Boones archiver) and .DSK files (v9t9 and PC99*) on a PC.  
 Notes: Great for drive management; browsing and extracting.  
 URL: [Ti99dir](https://www.99er.net/download2/index.php?act=view&id=219)  
+
+## Loading Cassette Program (.wav) Files From Original TI Hardware
+
+* Plug the TI tape audio cable serial end into the back of the TI
+* Plug the TI tape audio cable (white wire) into the headphone jack of your mac
+* Set your mac system volume to max
+* Set VLC volume to max
+* Set VLC->Window->Audio Effects...->Equalizer->Enable->Full treble
+* From the TI: ```OLD CS1```
+* Follow the on screen instructions, when prompted to press play on cassette, press play in VLC
