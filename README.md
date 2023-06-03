@@ -1,6 +1,6 @@
 # ti994a
 
-Repository for the reconstruction of ti994a projects developed during my childhood.
+Repository for the reconstruction (and "reimagining") of ti994a projects developed during my childhood.
 
 ## Project: BlackJack
 
