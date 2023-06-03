@@ -22,7 +22,7 @@ Gameplay Video:
 Name: Win994a-TI-99/4A Simulator for Windows  
 Description: Win994a is a TI-99/4A simulator written by Cory Burr that installs and runs in the Windows environment.  It was written to simulate  the TI-99/4A, not to emulate it perfectly.  
 Notes: Great for BASIC code development.  
-UrL: [Win994a-TI-99/4A Simulator for Windows](https://www.99er.net/win994a.shtml)  
+URL: [Win994a-TI-99/4A Simulator for Windows](https://www.99er.net/win994a.shtml)  
 
 Name: Classic99  
 Description: Classic99 TI-99/4A emulator for Windows, QI3xx series.  
