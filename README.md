@@ -4,7 +4,6 @@ Repository for the reconstruction (and "reimagining") of ti994a projects develop
 
 ## Project: BlackJack
 
-Emulator: [Win994a-TI-99/4A Simulator for Windows](https://www.99er.net/win994a.shtml)  
 Source Code: [blackjack.bas](blackjack.bas)  
 
 Gameplay Video:  
@@ -12,7 +11,6 @@ Gameplay Video:
 
 ## Project: Battleship
 
-Emulator: [Win994a-TI-99/4A Simulator for Windows](https://www.99er.net/win994a.shtml)  
 Source Code: [battleship.bas](battleship.bas)  
 
 Gameplay Video:  
@@ -21,8 +19,13 @@ Gameplay Video:
 
 ## Tools
 
+Name: Win994a-TI-99/4A Simulator for Windows  
+Description: Win994a is a TI-99/4A simulator written by Cory Burr that installs and runs in the Windows environment.  It was written to simulate  the TI-99/4A, not to emulate it perfectly.  
+Notes: Great for BASIC code development.  
+UrL: [Win994a-TI-99/4A Simulator for Windows](https://www.99er.net/win994a.shtml)  
+
 Name: Classic99  
-Description: Classic99 TI-99/4A Emulator for Windows, QI3xx series. 
+Description: Classic99 TI-99/4A emulator for Windows, QI3xx series.  
 Notes: Great for cutting and pasting XB code straight into emulator.  
 URL: [Classic99](https://github.com/tursilion/classic99/tree/main/dist)  
 
