@@ -39,7 +39,6 @@ sed 's/CALL GETMISSCHAR(CHARVAL)/CHARVAL=128/g' tmp0.bas > tmp1.bas
 mv tmp1.bas tmp0.bas
 
 #remove these subroutines completely
-
 sed '/SUB GETHOLECHAR/,/SUBEND/d' tmp0.bas > tmp1.bas
 mv tmp1.bas tmp0.bas
 sed '/SUB GETFILLCHAR/,/SUBEND/d' tmp0.bas > tmp1.bas
@@ -180,7 +179,7 @@ mv tmp1.bas tmp0.bas
 #reduce string variables to 1 letter + $
 sed 's/AUTODEPLOY\$/A\$/g' tmp0.bas > tmp1.bas
 mv tmp1.bas tmp0.bas
-sed 's/INPUTROW$/I$/g' tmp0.bas > tmp1.bas
+sed 's/INPUTROW\$/IR\$/g' tmp0.bas > tmp1.bas
 mv tmp1.bas tmp0.bas
 sed 's/PLAYAGAIN\$/P\$/g' tmp0.bas > tmp1.bas
 mv tmp1.bas tmp0.bas
@@ -189,6 +188,8 @@ mv tmp1.bas tmp0.bas
 sed 's/SHIPNAME\$/S\$/g' tmp0.bas > tmp1.bas
 mv tmp1.bas tmp0.bas
 sed 's/TEXT\$/T\$/g' tmp0.bas > tmp1.bas
+mv tmp1.bas tmp0.bas
+sed 's/TARGETROW\$/AR\$/g' tmp0.bas > tmp1.bas
 mv tmp1.bas tmp0.bas
 
 #reduce number variables to 1-2 letter
@@ -206,8 +207,6 @@ sed 's/OFFSET/O/g' tmp0.bas > tmp1.bas
 mv tmp1.bas tmp0.bas
 sed 's/SCOL/SC/g' tmp0.bas > tmp1.bas
 mv tmp1.bas tmp0.bas
-#sed 's/COL/C/g'  tmp0.bas > tmp1.bas * color
-#mv tmp1.bas tmp0.bas
 sed 's/CURRENTSHIPLEN/CL/g' tmp0.bas > tmp1.bas
 mv tmp1.bas tmp0.bas
 sed 's/CURRENTSHIP/CS/g' tmp0.bas > tmp1.bas
@@ -241,6 +240,8 @@ mv tmp1.bas tmp0.bas
 sed 's/HORIZONTAL/HZ/g' tmp0.bas > tmp1.bas
 mv tmp1.bas tmp0.bas
 sed 's/INPUTCOL/IC/g' tmp0.bas > tmp1.bas
+mv tmp1.bas tmp0.bas
+sed 's/TARGETCOL/AC/g' tmp0.bas > tmp1.bas
 mv tmp1.bas tmp0.bas
 sed 's/SUNKLOC/SU/g' tmp0.bas > tmp1.bas
 mv tmp1.bas tmp0.bas
@@ -325,6 +326,12 @@ mv tmp1.bas tmp0.bas
 sed 's/WINNER/W/g' tmp0.bas > tmp1.bas
 mv tmp1.bas tmp0.bas
 sed 's/XXXXXX/WINNER/g' tmp0.bas > tmp1.bas
+mv tmp1.bas tmp0.bas
+sed 's/\COLOR/\XXXXXX/g' tmp0.bas > tmp1.bas
+mv tmp1.bas tmp0.bas
+sed 's/COL/C/g' tmp0.bas > tmp1.bas
+mv tmp1.bas tmp0.bas
+sed 's/XXXXXX/COLOR/g' tmp0.bas > tmp1.bas
 mv tmp1.bas tmp0.bas
 
 sed '/^$/d' tmp0.bas >> battleship.compact.bas
