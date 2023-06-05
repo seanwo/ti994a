@@ -64,7 +64,7 @@ mv tmp1.bas tmp0.bas
 sed '/SUB GETMENUORIG/,/SUBEND/d' tmp0.bas > tmp1.bas
 mv tmp1.bas tmp0.bas
 
-# Replace these variable with constants
+#replace these variable with constants
 sed 's/HOLECHAR/96/g' tmp0.bas > tmp1.bas
 mv tmp1.bas tmp0.bas
 sed 's/FILLCHAR/97/g' tmp0.bas > tmp1.bas
@@ -84,10 +84,12 @@ mv tmp1.bas tmp0.bas
 sed 's/QSIZE/11/g' tmp0.bas > tmp1.bas
 mv tmp1.bas tmp0.bas
 
-# Reduce subroutine names to 3 letters
+#reduce subroutine names to 3 letters
 sed 's/CHECKHIT/CHI/g' tmp0.bas > tmp1.bas
 mv tmp1.bas tmp0.bas
 sed 's/CHECKHORIZONTAL/CHO/g' tmp0.bas > tmp1.bas
+mv tmp1.bas tmp0.bas
+sed 's/CHECKSTRAIGHT/CHS/g' tmp0.bas > tmp1.bas
 mv tmp1.bas tmp0.bas
 sed 's/CHECKOVERLAP/COV/g' tmp0.bas > tmp1.bas
 mv tmp1.bas tmp0.bas
@@ -253,9 +255,13 @@ sed 's/LOC/L/g' tmp0.bas > tmp1.bas
 mv tmp1.bas tmp0.bas
 sed 's/XXXXXX/LOC/g' tmp0.bas > tmp1.bas
 mv tmp1.bas tmp0.bas
+sed 's/PCOL/PC/g' tmp0.bas > tmp1.bas
+mv tmp1.bas tmp0.bas
 sed 's/MCOL/MC/g' tmp0.bas > tmp1.bas
 mv tmp1.bas tmp0.bas
 sed 's/MINCOORD/ML/g' tmp0.bas > tmp1.bas
+mv tmp1.bas tmp0.bas
+sed 's/PROW/PR/g' tmp0.bas > tmp1.bas
 mv tmp1.bas tmp0.bas
 sed 's/MROW/MR/g' tmp0.bas > tmp1.bas
 mv tmp1.bas tmp0.bas
