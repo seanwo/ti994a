@@ -5,6 +5,10 @@ Repository for the reconstruction (and "reimagining") of TI-99/4A projects devel
 ## Project: BlackJack
 
 Source Code: [blackjack.bas](blackjack.bas)  
+Source Code (compacted): [blackjack.compact.bas](blackjack.compact.bas)  
+Cassette Tape: [blackjack.compact.wav](blackjack.compact.wav)  
+GROM: [BLACKJAC-G.BIN](BLACKJACK/BLACKJAC-G.BIN)  
+ROM: [BLACKJAC-8.BIN](BLACKJACK/BLACKJAC-8.BIN)  
 
 Gameplay Video:  
 [![ti994a BlackJack Game](https://img.youtube.com/vi/NXRHZJ8q77w/0.jpg)](https://www.youtube.com/watch?v=NXRHZJ8q77w)
@@ -12,6 +16,8 @@ Gameplay Video:
 ## Project: Battleship
 
 Source Code: [battleship.bas](battleship.bas)  
+Source Code (compacted): [battleship.compact.bas](battleship.compact.bas)  
+Cassette Tape: [battleship.compact.wav](battleship.compact.wav)  
 
 Gameplay Video:  
 [![ti994a Battleship Game](https://img.youtube.com/vi/pnJ6ugJYJeI/0.jpg)](https://www.youtube.com/watch?v=pnJ6ugJYJeI)
