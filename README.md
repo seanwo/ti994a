@@ -18,6 +18,8 @@ Gameplay Video:
 Source Code: [battleship.bas](battleship.bas)  
 Source Code (compacted): [battleship.compact.bas](battleship.compact.bas)  
 Cassette Tape: [battleship.compact.wav](battleship.compact.wav)  
+GROM: [BATTLESH-G.BIN](BATTLESHIP/BATTLESH-G.BIN)  
+ROM: [BLATTLESH-8.BIN](BATTLESHIP/BATTLESH-8.BIN)  
 
 Gameplay Video:  
 [![ti994a Battleship Game](https://img.youtube.com/vi/pnJ6ugJYJeI/0.jpg)](https://www.youtube.com/watch?v=pnJ6ugJYJeI)
