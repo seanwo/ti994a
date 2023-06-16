@@ -109,8 +109,6 @@ sed 's/DEPLOYCOMPUTER/DCO/g' tmp0.bas > tmp1.bas
 mv tmp1.bas tmp0.bas
 sed 's/DEPLOYMANUAL/DMA/g' tmp0.bas > tmp1.bas
 mv tmp1.bas tmp0.bas
-sed 's/DEPLOYSHIPS/DSH/g' tmp0.bas > tmp1.bas
-mv tmp1.bas tmp0.bas
 sed 's/GAMEAI/GAI/g' tmp0.bas > tmp1.bas
 mv tmp1.bas tmp0.bas
 sed 's/GETAUTOPLAY/GAP/g' tmp0.bas > tmp1.bas
@@ -131,8 +129,6 @@ sed 's/MENUAUTODEPLOY/MAD/g' tmp0.bas > tmp1.bas
 mv tmp1.bas tmp0.bas
 sed 's/MENUCLEAR/MCL/g' tmp0.bas > tmp1.bas
 mv tmp1.bas tmp0.bas
-sed 's/MENUDEPLOYING/MDG/g' tmp0.bas > tmp1.bas
-mv tmp1.bas tmp0.bas
 sed 's/MENUDEPLOY/MDE/g' tmp0.bas > tmp1.bas
 mv tmp1.bas tmp0.bas
 sed 's/MENUGAMEOVER/MGO/g' tmp0.bas > tmp1.bas
@@ -149,21 +145,11 @@ sed 's/QUEUEADD/QAD/g' tmp0.bas > tmp1.bas
 mv tmp1.bas tmp0.bas
 sed 's/QUEUEDEL/QDE/g' tmp0.bas > tmp1.bas
 mv tmp1.bas tmp0.bas
-sed 's/QUEUEINIT/QIN/g' tmp0.bas > tmp1.bas
-mv tmp1.bas tmp0.bas
 sed 's/RENDERAUX/RAU/g' tmp0.bas > tmp1.bas
-mv tmp1.bas tmp0.bas
-sed 's/RENDERAXES/RAX/g' tmp0.bas > tmp1.bas
-mv tmp1.bas tmp0.bas
-sed 's/RENDERBACKBOARD/RBB/g' tmp0.bas > tmp1.bas
-mv tmp1.bas tmp0.bas
-sed 's/RENDERBOARDS/RBS/g' tmp0.bas > tmp1.bas
 mv tmp1.bas tmp0.bas
 sed 's/RENDERBOARD/RBO/g' tmp0.bas > tmp1.bas
 mv tmp1.bas tmp0.bas
 sed 's/RENDERHOLES/RHO/g' tmp0.bas > tmp1.bas
-mv tmp1.bas tmp0.bas
-sed 's/RENDERSHIPSAUX/RSA/g' tmp0.bas > tmp1.bas
 mv tmp1.bas tmp0.bas
 sed 's/RENDERSHIP/RSI/g' tmp0.bas > tmp1.bas
 mv tmp1.bas tmp0.bas
@@ -173,9 +159,7 @@ sed 's/RENDERSUNK/RSU/g' tmp0.bas > tmp1.bas
 mv tmp1.bas tmp0.bas
 sed 's/RENDERTEXT/TXT/g' tmp0.bas > tmp1.bas
 mv tmp1.bas tmp0.bas
-sed 's/SETCHARS/SCH/g' tmp0.bas > tmp1.bas
-mv tmp1.bas tmp0.bas
-sed 's/SETCOLORSCHEME/SCS/g' tmp0.bas > tmp1.bas
+sed 's/SETUP/STP/g' tmp0.bas > tmp1.bas
 mv tmp1.bas tmp0.bas
 
 #reduce string variables to 1 letter + $
@@ -197,8 +181,6 @@ mv tmp1.bas tmp0.bas
 #reduce number variables to 1-2 letter
 sed 's/ACTSUM/AS/g' tmp0.bas > tmp1.bas
 mv tmp1.bas tmp0.bas
-sed 's/AUTOPLAY/A/g' tmp0.bas > tmp1.bas
-mv tmp1.bas tmp0.bas
 sed 's/CHARVAL/CV/g' tmp0.bas > tmp1.bas
 mv tmp1.bas tmp0.bas
 sed 's/COFFSET/CO/g' tmp0.bas > tmp1.bas
@@ -214,8 +196,6 @@ mv tmp1.bas tmp0.bas
 sed 's/CURRENTSHIP/CS/g' tmp0.bas > tmp1.bas
 mv tmp1.bas tmp0.bas
 sed 's/CURR/CU/g' tmp0.bas > tmp1.bas
-mv tmp1.bas tmp0.bas
-sed 's/DEBUG/D/g' tmp0.bas > tmp1.bas
 mv tmp1.bas tmp0.bas
 sed 's/DINDEX/DI/g' tmp0.bas > tmp1.bas
 mv tmp1.bas tmp0.bas
