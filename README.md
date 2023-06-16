@@ -45,6 +45,11 @@ Description: Ti99Dir is a Windows program to browse through TI-99/4A files (v9t9
 Notes: Great for drive management; browsing and extracting.  
 URL: [Ti99dir](https://www.99er.net/download2/index.php?act=view&id=219)  
 
+Name: XB (Extended BASIC) Game Developers Package (XBGDP or JUWEL4)  
+Description: For all its strengths, Extended BASIC has two major weaknesses. It cannot utilize the full power of the 9918A video processor, and programs generally run slowly. This package contains two stand alone applications (XB256 and the Extended BASIC Compiler) that can also be used together to address these shortcomings, making it possible to produce arcade quality games with XB.  
+Notes: This is one of the only ways to create a TI cartridge GROM or ROM.  Follow the instructions in the "Using XBGDP" document that comes with the package.  
+URL: [XBGDP](https://forums.atariage.com/topic/224905-xb-game-developers-package/)
+
 ## Loading Cassette Program (.wav) Files From Mac To TI-99/4A
 
 * Plug the TI tape audio cable serial end into the back of the TI
