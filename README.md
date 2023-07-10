@@ -2,6 +2,8 @@
 
 Repository for the reconstruction (and "reimagining") of TI-99/4A projects developed during my childhood.
 
+Online project emulations: [http://ti994a.wohlgemuth.us](http://ti994a.wohlgemuth.us)
+
 ## Project: BlackJack
 
 Source Code: [blackjack.bas](blackjack.bas)  
